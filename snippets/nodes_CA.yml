@@ -69,7 +69,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 4899f7e2-ddb1-4ea0-b295-400190000868
+  uuid: 3a901daf-ae9b-4129-8b6c-3b78e9e2c75a
 - alterId: 0
   cipher: auto
   name: 13|CA_speednode_0001
