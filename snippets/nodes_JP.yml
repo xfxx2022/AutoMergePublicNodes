@@ -1,1 +1,39 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: '11,16|日本v2|@ripaojiedian #1'
+  network: kcp
+  port: '40916'
+  server: 8.209.200.91
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: af07bf42-c942-4085-a7cb-80f9bed88776
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202509121565513-Aja8hFXVWh.download.microsoft.com
+    mode: http
+  port: 8766
+  server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本2|@ripaojiedian
+  password: 8808e9f11454
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: jp5v1.lingjfjkm002.com
+    mode: websocket
+    mux: false
+    path: /nvcnjrmkggoy
+    skip-cert-verify: false
+    tls: true
+  port: 443
+  server: 137.220.142.139
+  tfo: false
+  type: ss
